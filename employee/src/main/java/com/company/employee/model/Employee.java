@@ -12,6 +12,4 @@ import org.springframework.stereotype.Component;
 public class Employee {
     int empId;
     String empName;
-
-
 }
