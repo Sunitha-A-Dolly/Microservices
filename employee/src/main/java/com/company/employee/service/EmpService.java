@@ -1,2 +1,6 @@
-package com.company.employee.service;public class EmpService {
+package com.company.employee.service;
+
+public class EmpService {
+
+
 }
