@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.company</groupId>
     <artifactId>myEmployeeDetails</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>employeeRestApi</name>
     <description>employeeRestApi</description>
     <properties>
