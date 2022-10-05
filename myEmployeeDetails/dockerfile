@@ -2,6 +2,6 @@ FROM openjdk:19
 
 EXPOSE 8080
 
-ADD target/employeeRestApi employeeRestApi
+ADD target/myEmployeeDetails-0.0.4-SNAPSHOT myEmployeeDetails-0.0.4-SNAPSHOT
 
-ENTRYPOINT ["java","-jar","employeeRestApi.jar"]
+ENTRYPOINT ["java","-jar","myEmployeeDetails-0.0.4-SNAPSHOT.jar"]
