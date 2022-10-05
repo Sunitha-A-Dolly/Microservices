@@ -1,0 +1,7 @@
+FROM openjdk:19
+
+EXPOSE 8080
+
+ADD target/myEmployeeDetails-0.0.1-SNAPSHOT.jar myEmployeeDetails-0.0.1-SNAPSHOT.jar
+
+ENTRYPOINT ["java","-jar","myEmployeeDetails-0.0.1-SNAPSHOT.jar"]
