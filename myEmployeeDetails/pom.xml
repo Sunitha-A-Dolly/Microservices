@@ -10,9 +10,9 @@
     </parent>
     <groupId>com.company</groupId>
     <artifactId>myEmployeeDetails</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>myEmployeeDetails</name>
-    <description>myEmployeeDetails</description>
+    <version>0.0.3-SNAPSHOT</version>
+    <name>employeeRestApi</name>
+    <description>employeeRestApi</description>
     <properties>
         <java.version>19</java.version>
     </properties>
@@ -69,6 +69,7 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                    <finalName>employeeRestApi</finalName>
                 </configuration>
             </plugin>
         </plugins>
